@@ -19,11 +19,10 @@ body {
 text-align: center;
 } 
 #navbar-brand-logo {
-  max-width: 80px;
-  padding-top:0;
+  max-width: 90px;
 }
 #navbar-container {
-  left: 2%;
+  left: 0%;
   position: absolute;
 }
 .footer {
