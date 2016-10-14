@@ -15,6 +15,9 @@ body {
   margin-right: 0;
   margin-left: 0;
 } 
+#container-marketing {
+text-align: center;
+} 
 #navbar-brand-logo {
   max-width: 80px;
   padding-top:0;
