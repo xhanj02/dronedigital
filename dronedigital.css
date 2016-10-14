@@ -1,0 +1,63 @@
+body {
+  padding-top: 50px;
+}
+.{ background: white;
+
+}
+#navbar {
+  background: #101010;
+  text-align: left;
+}
+.navbar-brand {
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+} 
+#container-marketing {
+text-align: center;
+} 
+#navbar-brand-logo {
+  max-width: 90px;
+}
+#navbar-container {
+  left: 0;
+  position: absolute;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  height: 7%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+/* Carousel base class */
+.carousel {
+  height: ˇ700px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 700px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
