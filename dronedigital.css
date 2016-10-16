@@ -24,26 +24,29 @@ body {
   position: absolute;
 }
 #container-marketing{
-  height: 33,3333vw;
-  width: 100vw;
+  height: 32vw;
+  width: 100%;
   background-color: green;
 }
 #squareimgcontainer{
   float: left;
-  width: 33.33333333%;
-  height: 33,33333vw;
+  width: 32vw;
+  height: 32vw;
 }
 #squareimg{
   width: 100%;
   height: 100%;
 }
+#stickyfooter {
+  margin-bottom: 0;
+  height: 7%;
+}
 .footer {
-  position: absolute;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
-  height: 7%;
+  margin-bottom: 0%;
+  height: 100%;
   width: 100%;
   background-color: #f5f5f5;
 }
