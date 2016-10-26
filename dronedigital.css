@@ -8,6 +8,10 @@ body {
 #navbar {
   background: #101010;
   text-align: left;
+  min-width: 30%;
+}
+.navbar-container {
+  min-width: 30%;
 }
 .navbar-brand {
   padding-left: 0;
@@ -24,7 +28,20 @@ body {
   left: 0;
   position: absolute;
 }
-
+.container-whole{
+min-height: 100%;
+}
+#textfield{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #cfcccc;
+}
+#contact2{
+  padding-top: 5%;
+}
+#p1{
+  padding-top: 20%;
+}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -88,6 +105,9 @@ margin-top: 18%;
   float: left;
   min-width: 80px;
   }
+  #squareimgcont{
+  width: 100%;
+  }
 .text {
   width:40%;
   height: 33%;
@@ -95,20 +115,15 @@ margin-top: 18%;
   color: #cfcccc;
 }
 
-#stickyfooter {
-  position: absolute;
-  bottom: -20;
-  height: 7%;
-  width: 100%;
+#futr {
+  padding-top: 1%;
+  height: 100%;
 }
 .footer {
+  height: auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0%;
-  height: 100%;
-  width: 100%;
   background-color: #f5f5f5;
+
 }
 
 #feeter {
