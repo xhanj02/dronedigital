@@ -8,11 +8,9 @@ body {
 #navbar {
   background: #101010;
   text-align: left;
-  min-width: 30%;
+  min-width: 200px;
 }
-.navbar-container {
-  min-width: 30%;
-}
+
 .navbar-brand {
   padding-left: 0;
   padding-bottom: 0;
@@ -21,13 +19,38 @@ body {
   margin-left: 0;
 }
 
+
+
 #navbar-brand-logo {
   max-width: 90px;
 }
 #navbar-container {
   left: 0;
   position: absolute;
+  min-width: 200px;
 }
+
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  visibility: visible !important;
+  min-width: 200px;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+
 .container-whole{
 min-height: 100%;
 }
