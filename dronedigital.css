@@ -9,7 +9,7 @@ body {
 #navbar {
   background: #101010;
   text-align: left;
-  min-width: 318px;
+  min-width: 360px;
 
 }
 
@@ -22,7 +22,12 @@ body {
 }
 
 
-
+#navbar-brand-glyph {
+  float: right;
+  max-height: 48px;
+  padding-left: 2px;
+  padding-right: 2px;
+} 
 #navbar-brand-logo {
   max-width: 90px;
 }
