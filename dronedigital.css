@@ -1,14 +1,15 @@
 body {
   padding-top: 50px;
-  min-width: 705mpx;
+  min-width: 318px;
 }
 .{ background: white;
 
 }
+
 #navbar {
   background: #101010;
   text-align: left;
-  min-width: 200px;
+  min-width: s;
 }
 
 .navbar-brand {
