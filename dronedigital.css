@@ -9,7 +9,8 @@ body {
 #navbar {
   background: #101010;
   text-align: left;
-  min-width: s;
+  min-width: 318px;
+
 }
 
 .navbar-brand {
@@ -28,7 +29,7 @@ body {
 #navbar-container {
   left: 0;
   position: absolute;
-  min-width: 200px;
+  min-width: 318px;
 }
 
 .navbar-collapse {
@@ -37,7 +38,7 @@ body {
   padding-bottom: 0;
   overflow: visible !important;
   visibility: visible !important;
-  min-width: 200px;
+  min-width: 318px;
 }
 
 .navbar-toggle {
