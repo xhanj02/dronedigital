@@ -21,8 +21,16 @@
 
     <!-- KEEP ME IN AT ALL COST: Optional theme -->
     <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap-theme.css" >
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("page1.html"); 
+    });
+    </script> 
+
 </head>
-<body>
+<body class="css1">
       <nav id="navbar"class="navbar navbar-inverse navbar-fixed-top">
       <div>
         <div class="navbar-header">
@@ -95,12 +103,16 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
+</body>
 
+    <div class="css2" id="includedContent"></div>
+    
+<body class="css1">
     </div><!-- /.container-marketing -->
     <div id="feeter"></div>
 <div id="container-gallery">
 <div id="gallery">
-    <figure class="col-md-3 col-sm-4 col-xs-6">
+    <figure class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
       <a href="#">
       <img class="img" id="firstimg" src="Galerie/Dronurbex2.jpg" alt="asdlkajds" />
         <figcaption>
@@ -108,7 +120,7 @@
             <p>Průzkum tepláren z výšky</p>
         </figcaption>
         </a>
-    </figure><figure class="col-md-3 col-sm-4 col-xs-6">
+    </figure><figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/Dronurbex3.jpg" alt="" />
         <figcaption>
@@ -117,7 +129,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/Dronurbex4.jpg" alt="" />
         <figcaption>
@@ -126,7 +138,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/Dronurbex5.jpg" alt="" />
         <figcaption>
@@ -135,7 +147,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/krava.jpg" alt="" />
         <figcaption>
@@ -144,7 +156,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/lod1.jpg" alt="" />
         <figcaption>
@@ -153,7 +165,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/lod3.jpg" width="105%" alt="" />
         <figcaption>
@@ -162,7 +174,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="Galerie/lod2.jpg">
       <img class="img" src="Galerie/lod2.jpg" alt="" />
         <figcaption>
@@ -171,7 +183,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/prgcstl.jpg" alt="" />
         <figcaption>
@@ -179,7 +191,7 @@
             <p>Fotka z nočního natáčení pražského festivalu Signál</p>
         </figcaption>
         </a>
-    </figure><figure class="col-md-3 col-sm-4 col-xs-6">
+    </figure><figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="Galerie/kameraman.jpg" alt="" />
         <figcaption>
@@ -188,16 +200,11 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
-      <iframe class="img" width="100%" src="https://www.youtube.com/embed/wbZmFs7vhg8" frameborder="0" allowfullscreen></iframe>
-        <figcaption>
-            <h2>Legend</h2>
-            <p>Lorem ipsum dolor sit amet</p>
-        </figcaption>
-        </a>
+      <iframe class="img" height="800" width="533" src="https://www.youtube.com/embed/wbZmFs7vhg8" frameborder="0" allowfullscreen></iframe>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="" alt="" />
         <figcaption>
@@ -206,7 +213,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="" alt="" />
         <figcaption>
@@ -215,7 +222,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="" alt="" />
         <figcaption>
@@ -224,7 +231,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="" alt="" />
         <figcaption>
@@ -233,7 +240,7 @@
         </figcaption>
         </a>
     </figure>
-  <figure class="col-md-3 col-sm-4 col-xs-6">
+  <figure class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
       <a href="#">
       <img class="img" src="" alt="" />
         <figcaption>

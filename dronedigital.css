@@ -1,3 +1,5 @@
+css1 {
+
 body {
   padding-top: 50px;
   min-width: 318px;
@@ -215,4 +217,5 @@ a:hover figcaption {
     left: 0;
     color: #fff;
     transition: all 0.7s;
+}
 }
