@@ -154,6 +154,8 @@ margin-top: 18%;
 #futr {
   padding-top: 1%;
   height: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
 .footer {
   height: auto;
