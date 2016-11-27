@@ -9,7 +9,6 @@
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
  */
-
 .blueimp-gallery,
 .blueimp-gallery > .slides > .slide > .slide-content {
   position: absolute;
@@ -17,6 +16,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+ 
   /* Prevent artifacts in Mozilla Firefox: */
   -moz-backface-visibility: hidden;
 }
