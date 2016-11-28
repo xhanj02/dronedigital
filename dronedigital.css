@@ -1,12 +1,11 @@
 body {
   padding-top: 50px;
   min-width: 318px;
-}
-.{ background: white;
+  background: #101010;
 
 }
 #links {
-	background: #101010;
+	background-color: #101010;
 }
 #navbar {
   background: #101010;
