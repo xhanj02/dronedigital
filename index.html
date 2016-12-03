@@ -115,28 +115,20 @@
     <ol class="indicator"></ol>
 </div>
 <div id="links" text align="center">
-    <a href="Galerie/puvodni/lod1.jpg" title="Chorvatsko pod plachtami 2016">
-        <img width="32%" style="margin-top: 6px" src="Galerie/lod1.jpg" alt="Banana">
+      <a href="Galerie/puvodni/Dronurbex6.jpg" title="Projekt Urbex">
+        <img width="32%" style="margin-top: 6px" src="Galerie/Dronurbex6.jpg" alt="Banana">
     </a>
-        <a href="Galerie/puvodni/lod2.jpg" title="Chorvatsko pod plachtami 2016">
+        <a href="Galerie/puvodni/lod2.jpg" title="Natáčení filmu v řecku">
         <img width="32%" style="margin-top: 6px" src="Galerie/lod2.jpg" alt="Banana">
     </a>
-        <a href="Galerie/puvodni/lod3.jpg" title="Chorvatsko pod plachtami 2016">
+        <a href="Galerie/puvodni/lod3.jpg" title="Komiža race se sabre teamem">
         <img width="32%" style="margin-top: 6px" src="Galerie/lod3.jpg" alt="Banana">
     </a>
-    <a href="Galerie/puvodni/kameraman.jpg" title="">
-        <img width="32%" style="margin-top: 6px" src="Galerie/kameraman.jpg" alt="Orange">
-    </a>
-    <a href="Galerie/puvodni/Dronurbex1.jpg" title="Projekt Urbex">
-        <img width="32%" style="margin-top: 6px" src="Galerie/Dronurbex1.jpg" alt="Apple">
-    </a>
-    <a href="Galerie/puvodni/Dronurbex2.jpg" title="Projekt Urbex">
-        <img width="32%" style="margin-top: 6px" src="Galerie/Dronurbex2.jpg" alt="Banana">
-    </a>
-    <a href="Galerie/puvodni/Dronurbex3.jpg" title="Projekt Urbex">
+   
+    <!--<a src="https://www.youtube.com/embed/wbZmFs7vhg8?rel=0" title="Projekt Urbex">
         <img width="32%" style="margin-top: 6px" src="Galerie/Dronurbex3.jpg" alt="Banana">
     </a>
-        <a href="Galerie/puvodni/Dronurbex4.jpg" title="Projekt Urbex">
+        <a href="https://youtu.be/wbZmFs7vhg8" title="Projekt Urbex">
         <img width="32%" style="margin-top: 6px" src="Galerie/Dronurbex4.jpg" alt="Banana">
     </a>
         <a href="Galerie/puvodni/Dronurbex5.jpg" title="Projekt Urbex">
@@ -148,11 +140,47 @@
         <a href="Galerie/puvodni/prgcstl.jpg" title="Natáčení pražského festivalu signál">
         <img width="32%" style="margin-top: 6px" src="Galerie/prgcstl.jpg" alt="Banana">
     </a>
-        <a href="Galerie/puvodni/kameraman.jpg" title="Tilt-shiftové natáčení architektury">
-        <img width="32%" style="margin-top: 6px" src="Galerie/kameraman.jpg" alt="Banana">
-    </a>
+      </a>
+        <a href="Galerie/puvodni/prgcstl.jpg" title="Natáčení pražského festivalu signál">
+        <img width="32%" style="margin-top: 6px" src="Galerie/prgcstl.jpg" alt="Banana">
+    </a>-->
+</div>     
+<div class="col-md-6"><div class="youtube-player" data-id="wbZmFs7vhg8"></div></div>
+<div class="col-md-6"><div class="youtube-player" data-id="wbZmFs7vhg8"></div></div>
+<script>
 
-</div>
+/* Light YouTube Embeds by @labnol */
+/* Web: http://labnol.org/?p=27941 */
+
+document.addEventListener("DOMContentLoaded",
+    function() {
+        var div, n,
+            v = document.getElementsByClassName("youtube-player");
+        for (n = 0; n < v.length; n++) {
+            div = document.createElement("div");
+            div.setAttribute("data-id", v[n].dataset.id);
+            div.innerHTML = labnolThumb(v[n].dataset.id);
+            div.onclick = labnolIframe;
+            v[n].appendChild(div);
+        }
+    });
+
+function labnolThumb(id) {
+    var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+        play = '<div class="play"></div>';
+    return thumb.replace("ID", id) + play;
+}
+
+function labnolIframe() {
+    var iframe = document.createElement("iframe");
+    var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allowfullscreen", "1");
+    this.parentNode.replaceChild(iframe, this);
+}
+
+</script>
 
 <script src="js/blueimp-gallery.min.js"></script>
 
@@ -167,7 +195,8 @@ document.getElementById('links').onclick = function (event) {
 };
 </script>
 
-<!-- StickyFooter -->
+
+<!-- StickyFooter <iframe width="256" height="170" src="https://www.youtube.com/embed/wbZmFs7vhg8?rel=0" frameborder="0" allowfullscreen></iframe> -->
     <footer class="footer">
         <div class="row" id="futr">
           <div class="col-xs-12 ">
