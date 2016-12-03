@@ -4,6 +4,12 @@ body {
   background: #101010;
 
 }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 #links {
 	background-color: #101010;
 	 { display: none; }
