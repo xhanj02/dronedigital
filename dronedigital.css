@@ -294,3 +294,28 @@ a:hover figcaption {
 .nasetvorba {
 	top: 55%;
 }
+
+#rowtext {
+	border-style: solid;
+	border-width: 1px;
+	width: 50%;
+	text-align: center;
+}
+
+.jedna {
+	background-color: blue;
+	width: auto;
+	height: auto;
+}
+.dva {
+	background-color: red;
+	width: auto;
+	height: 50px;
+}
+
+.tri {
+	left: 5%;
+	right: 5%;
+	top: 5%;
+	width: 50%;
+}
