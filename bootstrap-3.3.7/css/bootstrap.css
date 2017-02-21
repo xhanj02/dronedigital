@@ -1590,9 +1590,7 @@ pre code {
   margin-left: auto;
 }
 @media {
-  .container {
-    width: 750px;
-  }
+
 }
 @media (min-width: 992px) {
   .container {
