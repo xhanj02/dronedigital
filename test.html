@@ -27,30 +27,39 @@
 
 <body>
 
-<div class="row">
-    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">  
-        <img class="img-responsive" src="slide1-portrait.jpg" />    <!--Mobile-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">
+               <img id="navbar-brand-logo" alt="Brand" src="NAVBARLOGO.png">
+      </a>
     </div>
-    <div class="hidden-xs col-sm-12 hidden-md hidden-lg">
-        <img class="img-responsive" src="slide1-landscape.jpg" />   <!--Tab-->
+    <div class="collapse navbar-collapse" id="MyNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Domů</a></li>
+        </li>
+        <li><a href="#">O nás</a></li>
+        <li><a href="#">kontakt</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.youtube.com/channel/UCzdpXZPYQUfFoc3Crz6VsKg" >
+            <img id="navbar-brand-glyph" alt="Brand" src="youtubelogo.png" style="padding-right: 7px;">
+          </a></li>
+        <li><a class="" href="https://www.instagram.com/dronedigitalcz/">
+            <img id="navbar-brand-glyph" alt="Brand" src="instagramlogo.png">
+          </a></li>
+      </ul>
     </div>
-    <div class="hidden-xs hidden-sm col-md-12 hidden-lg">
-        <img class="img-responsive" src="slide1-landscape.jpg" />   <!--Desktop-->
-    </div>
-    <div class="hidden-xs hidden-sm hidden-md col-lg-12">
-        <img class="img-responsive" src="slide1-landscape.jpg" />  <!--Large-->
-    </div>
-</div>
+  </div>
+</nav>
+  
+</body>
 
-
-<!-- StickyFooter <iframe width="256" height="170" src="https://www.youtube.com/embed/wbZmFs7vhg8?rel=0" frameborder="0" allowfullscreen></iframe> -->
-    <footer class="footer">
-        <div class="row" id="futr">
-          <div class="col-xs-12 ">
-            <p class="text-muted"> Made by J&J Webdesigners @2016</p>
-          </div>
-        </div>
-    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -60,9 +69,11 @@
     <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    
+
+
+
     <!--KEEP ME IN AT ALL COST: Latest compiled and minified JavaScript -->
     <script src="bootstrap-3.3.7/js/bootstrap.min.js" >
     </script>
-</body>
+
 </html>
