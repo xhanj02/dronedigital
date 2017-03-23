@@ -24,38 +24,23 @@
     <link rel="stylesheet" href="css/blueimp-gallery.css">
 </head>
 
-.fake-alt {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-
 
 <body>
 
-<picture alt="fancy pants">
-    <!-- loaded by browsers that support picture and that support one of the sources -->
-    <source srcset="slide1.jpg, slide2.jpg, slide4.jpg" type="image/jpeg" media="(min-width: 140em)" />
-    <source srcset="slide1m.jpg, slide2m.jpg, slide4m.jpg" type="image/jpeg" />
-
-    <!-- loaded by IE 8+, non-IE browsers that don’t support picture, and browsers that support picture but cannot find an appropriate source -->
-    <![if gte IE 8]>
-    <object data="slide1.jpg" type="image/jpeg"></object>
-    <span class="fake-alt">fancy pants</span>
-    <![endif]>
-
-    <!-- loaded by IE 6 and 7 -->
-    <!--[if lt IE 8]>
-    <img src="fallback.jpg" alt="fancy pants" />
-    <![endif]-->
-</picture>
-
-
-</body>
+<div class="row">
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg">  
+        <img class="img-responsive" src="slide1-portrait.jpg" />    <!--Mobile-->
+    </div>
+    <div class="hidden-xs col-sm-12 hidden-md hidden-lg">
+        <img class="img-responsive" src="slide1-landscape.jpg" />   <!--Tab-->
+    </div>
+    <div class="hidden-xs hidden-sm col-md-12 hidden-lg">
+        <img class="img-responsive" src="slide1-landscape.jpg" />   <!--Desktop-->
+    </div>
+    <div class="hidden-xs hidden-sm hidden-md col-lg-12">
+        <img class="img-responsive" src="slide1-landscape.jpg" />  <!--Large-->
+    </div>
+</div>
 
 
 <!-- StickyFooter <iframe width="256" height="170" src="https://www.youtube.com/embed/wbZmFs7vhg8?rel=0" frameborder="0" allowfullscreen></iframe> -->
@@ -75,9 +60,7 @@
     <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-
-
+    
     <!--KEEP ME IN AT ALL COST: Latest compiled and minified JavaScript -->
     <script src="bootstrap-3.3.7/js/bootstrap.min.js" >
     </script>
