@@ -1,6 +1,6 @@
 body {
   padding-top: 50px;
-  min-width: 427px;
+  min-width: 320px;
   background: #101010;
 
 }
@@ -19,7 +19,7 @@ body {
 #navbar {
   background: #101010;
   text-align: left;
-  min-width: 427px;
+  min-width: 320px;
 }
 
 .navbar-brand {
