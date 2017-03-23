@@ -24,12 +24,22 @@
     <link rel="stylesheet" href="css/blueimp-gallery.css">
 </head>
 
+.fake-alt {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+
 
 <body>
 
 <picture alt="fancy pants">
     <!-- loaded by browsers that support picture and that support one of the sources -->
-    <source srcset="slide1.jpg, slide2.jpg, slide4.jpg" type="image/jpeg" media="(min-width: 40em)" />
+    <source srcset="slide1.jpg, slide2.jpg, slide4.jpg" type="image/jpeg" media="(min-width: 140em)" />
     <source srcset="slide1m.jpg, slide2m.jpg, slide4m.jpg" type="image/jpeg" />
 
     <!-- loaded by IE 8+, non-IE browsers that don’t support picture, and browsers that support picture but cannot find an appropriate source -->
